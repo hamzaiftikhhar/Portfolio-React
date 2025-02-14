@@ -11,7 +11,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
+    <Container fluid className="home-about-section" >
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
@@ -42,7 +42,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>CONNECT WITH ME</h1>
             <p>
@@ -71,7 +71,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:alihamxa366@gmail.com"
+                  href="https://www.instagram.com/hamzaiftikhhar"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -79,9 +79,10 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

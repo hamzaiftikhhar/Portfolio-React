@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -33,6 +34,7 @@ function App() {
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>
         <section id="resume"><Resume /></section>
+        <section id="resume"><Contact /></section>
 
         <Footer />
       </div>

@@ -1,6 +1,6 @@
 <h2 align="center">
   🚀 Portfolio Website - v2.0 <br/>
-  <a href="https://hamzaiftikhhar-portfolio.vercel.app/" target="_blank">hamzaiftikhhar.tech</a>
+  <a href="https://hamzaiftikhhar-portfolio.vercel.app/" target="_blank">hamzaiftikhhars Portfolio</a>
 </h2>
 
 <p align="center">

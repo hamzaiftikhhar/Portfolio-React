@@ -12,8 +12,10 @@ function Contact() {
     {
       icon: <AiOutlineMail size={30} />,
       title: "Email",
-      link: "mailto:alihamx366a@gmail.com"
-    },
+      link: "mailto:alihamx366a@gmail.com",
+      isEmail: true
+    }
+    ,
     {
       icon: <AiOutlineGithub size={30} />,
       title: "GitHub",
@@ -36,18 +38,19 @@ function Contact() {
           Feel free to reach out through any of these channels
         </p>
         <Row className="justify-content-center contact-row">
-          {contactInfo.map((info, index) => (
-            <Col key={index} className="contact-column">
-              <a href={info.link} target="_blank" rel="noopener noreferrer" className="contact-card-link">
-                <div className="contact-card-outer">
-                  <div className="contact-card-inner">
-                    <div className="contact-icon">{info.icon}</div>
-                    <h3 className="contact-title">{info.title}</h3>
-                  </div>
-                </div>
-              </a>
-            </Col>
-          ))}
+        {contactInfo.map((info, index) => (
+  <Col key={index} className="contact-column">
+    <a href={info.link} target={info.isEmail ? "_self" : "_blank"} rel="noopener noreferrer" className="contact-card-link">
+      <div className="contact-card-outer">
+        <div className="contact-card-inner">
+          <div className="contact-icon">{info.icon}</div>
+          <h3 className="contact-title">{info.title}</h3>
+        </div>
+      </div>
+    </a>
+  </Col>
+))}
+
         </Row>
       </Container>
     </Container>

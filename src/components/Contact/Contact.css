@@ -1,11 +1,10 @@
 .contact-section {
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  background-color: var(--section-background-color) !important;
-  margin-bottom: 100px !important; 
-
+  padding-top: 180px !important; /* Increase top padding */
+  padding-bottom: 60px !important; /* Increase bottom padding */
+  min-height: 100vh !important; /* Ensure it takes full screen height */
 }
+
+
 
 .contact-row {
   display: flex !important;
@@ -28,13 +27,13 @@
   padding: 1px !important;
   background: linear-gradient(145deg, #cd5ff877, #9d4dcc00) !important;
   border-radius: 8px !important;
-  width: 250px !important;
+  width: 280px !important; /* Slightly bigger cards */
 }
 
 .contact-card-inner {
   background: #00000000 !important;
   border-radius: 7px !important;
-  padding: 2rem !important;
+  padding: 2.5rem !important; /* More space inside */
   text-align: center !important;
   height: 100% !important;
   display: flex !important;

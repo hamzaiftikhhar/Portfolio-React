@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { MdCheckCircle } from "react-icons/md"; // Modern checkmark icon
 
 function AboutCard() {
   return (
@@ -20,13 +20,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Video Games
+              <MdCheckCircle /> Playing Video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Exploring New Tech
+              <MdCheckCircle /> Exploring New Tech
             </li>
             <li className="about-activity">
-              <ImPointRight /> Traveling & Food Hunting
+              <MdCheckCircle /> Traveling & Food Hunting
             </li>
           </ul>
 
